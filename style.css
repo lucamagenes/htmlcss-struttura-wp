@@ -4,20 +4,29 @@
     margin: 0;
 }
 
+body {
+    width: 98%;
+    margin: auto;
+}
+
 .debug .site_header {
-    height: 100px;
+    height: 120px;
 }
 
 .debug .immagine_principale {
-    height: 300px;
+    height: 450px;
 }
 
 .debug .site_title {
-    height: 100px;
+    height: 70px;
 }
 
 .debug .sidebar, .content {
     height: 300px;
+}
+
+.debug .site_footer {
+    height: 50px;
 }
 
 /* dubug */
@@ -37,7 +46,7 @@
 
 .site_header {
     width: 100%;
-    background-color: hotpink;
+    background-color: violet;
     margin-bottom: 1rem;
 }
 
@@ -67,4 +76,10 @@
     background-color: lightblue;
     margin-left: 1%;
     margin-right: 1%;
+}
+
+.site_footer {
+    width: 100%;
+    background-color: blueviolet;
+    margin-top: .5rem;
 }
