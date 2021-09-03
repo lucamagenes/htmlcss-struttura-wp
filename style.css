@@ -3,3 +3,68 @@
     padding: 0;
     margin: 0;
 }
+
+.debug .site_header {
+    height: 100px;
+}
+
+.debug .immagine_principale {
+    height: 300px;
+}
+
+.debug .site_title {
+    height: 100px;
+}
+
+.debug .sidebar, .content {
+    height: 300px;
+}
+
+/* dubug */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sidebar, .content {
+    float: left;
+    margin-bottom: 1rem;
+}
+
+/* utility */
+
+.site_header {
+    width: 100%;
+    background-color: hotpink;
+    margin-bottom: 1rem;
+}
+
+.immagine_principale {
+    width: 100%;
+    background-color: khaki;
+    margin-bottom: 1rem;
+}
+
+.main_content {
+    background-color: dodgerblue;
+}
+
+.site_title {
+    width: 100%;
+    background-color: lightblue;
+    margin-bottom: 1rem;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: lightblue;
+}
+
+.content {
+    width: 58%;
+    background-color: lightblue;
+    margin-left: 1%;
+    margin-right: 1%;
+}
